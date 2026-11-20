@@ -1,35 +1,42 @@
-# Kim Mansur Yano
+<p align="right"><a href="./README.pt-BR.md">🇧🇷 Versão em português</a></p>
 
-Physical therapist and neuroscience researcher turned builder of the systems that run a municipal public-health operation in Vilhena, Rondônia (Brazil).
+<div align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/galaxy-header-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="./assets/generated/galaxy-header-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/galaxy-header-light.svg">
+    <img src="./assets/generated/galaxy-header.svg" width="850" alt="Kim Mansur Yano: public-health systems builder">
+  </picture>
+</div>
 
-Executive Secretary and Director of Specialized Care at the Vilhena Municipal Health Department (SEMUS); Secretary of Health in 2022–2023. MSc in Neurological Physical Therapy (UFRN), working on EEG signal analysis and brain–computer interfaces; PhD candidate at UFRN. Founder of [Mansur Consultoria](https://mansurconsultoria.com.br).
+Physical therapist and neuroscience researcher turned builder of the systems that run a municipal public-health operation in Vilhena, Rondônia (Brazil). Executive Secretary and Director of Specialized Care at the Vilhena Municipal Health Department (SEMUS); Secretary of Health in 2022–2023. MSc in Neurological Physical Therapy (UFRN), PhD candidate at UFRN. Founder of [Mansur Consultoria](https://mansurconsultoria.com.br).
 
-## How I build with LLMs
+<br/>
 
-I treat model output as an untrusted proposal until something outside the model confirms it.
+<div align="center">
+  <img src="./assets/cards/en/systems.svg" width="850" alt="What I have built: thirteen systems for municipal public health, grouped by what they do"/>
+</div>
 
-- **Verification lives outside the model.** An automated action is closed by an external check — a re-read from the system of record, a digital-signature validation, a delivery receipt — never by the agent reporting its own success.
-- **Cross-model adversarial review.** Documents with legal or financial weight are attacked by a different model family against explicit acceptance criteria. Reviewers may not cite statutes or precedent from memory; anything unverified is flagged for source check.
-- **Human gates on the irreversible.** Agents work freely on internal state; signing, sending, publishing and deploying stop for explicit approval.
-- **Monitors measure progress, fail loudly and expire.** Watchers track whether work advances rather than whether a process is alive, alarm on their own failure, and shut themselves down when the task ends.
-- **Operational knowledge as versioned procedures.** Rules learned from real incidents live in reviewed, versioned skills that agents load on demand — not in ad-hoc prompts.
+<p align="center"><sub>[faturamento.semusvilhena.com](https://faturamento.semusvilhena.com) · [prestacao-contas.semusvilhena.com](https://prestacao-contas.semusvilhena.com) · [sisreg.semusvilhena.com](https://sisreg.semusvilhena.com) · [processos.semusvilhena.com](https://processos.semusvilhena.com) · [painel.semusvilhena.com](https://painel.semusvilhena.com) · [residencias.semusvilhena.com](https://residencias.semusvilhena.com) · [eventos.semusvilhena.com](https://eventos.semusvilhena.com) · [nfse.mansurconsultoria.com.br](https://nfse.mansurconsultoria.com.br)</sub></p>
 
-## Systems
+<br/>
 
-The code is private because it handles patient and government data. Happy to walk through any of it.
+<div align="center">
+  <img src="./assets/cards/en/principles.svg" width="850" alt="How I build with LLMs"/>
+</div>
 
-| System | What it does | Link |
-|---|---|---|
-| **SUS billing validation** | Validates hospital and outpatient production files (AIH, BPA, APAC) against the national procedure table before submission, and prices what would be lost. | [faturamento.semusvilhena.com](https://faturamento.semusvilhena.com) |
-| **Provider accountability** | Monthly accountability for contracted providers: claims reconciled against the referral system, attestation and payment trail. | [prestacao-contas.semusvilhena.com](https://prestacao-contas.semusvilhena.com) |
-| **SISREG Analytics** | Waiting lists, demand mapping and cost analysis on top of Brazil's national referral and scheduling system. | [sisreg.semusvilhena.com](https://sisreg.semusvilhena.com) |
-| **Oxy Tracker** | Tracks administrative processes and signatures in the municipal e-protocol system, with watchdog and proof of delivery. | [processos.semusvilhena.com](https://processos.semusvilhena.com) |
-| **Operations dashboards** | Real-time monitoring panels for the health network. | [painel.semusvilhena.com](https://painel.semusvilhena.com) |
-| **Residency programs portal** | Evaluation, grading and records for medical and multiprofessional residency programs. | [residencias.semusvilhena.com](https://residencias.semusvilhena.com) |
-| **Events portal** | Registration and certificates for health-department events. | [eventos.semusvilhena.com](https://eventos.semusvilhena.com) |
-| **Gesfarma** | Pharmaceutical supply and dispensing management (staging). | [h-gesfarma.semusvilhena.com](https://h-gesfarma.semusvilhena.com) |
-| **NFS-e issuer** | Multi-tenant electronic service-invoice platform with pre-flight validation. | [nfse.mansurconsultoria.com.br](https://nfse.mansurconsultoria.com.br) |
-| **SIGTAP procedure table** | Competency-versioned national procedure and pricing table used by billing and pricing engines. | internal |
-| **Accreditation & procurement** | Accreditation calls, procurement and public-bidding workflows under Brazil's procurement law, from technical study to national portal publication. | internal |
-| **Price database** | Market price research from public procurement records to ground cost estimates. | internal |
-| **Civil-society partnerships (Law 13.019)** | Document kits and review workflow for public partnerships with nonprofits. | internal |
+<br/>
+
+<div align="center">
+  <img src="./assets/cards/en/stack.svg" width="850" alt="Stack"/>
+</div>
+
+<br/>
+
+<details>
+<summary><strong>Open source</strong></summary>
+
+- [gaugely](https://github.com/kimmansur/gaugely): live usage limits and API spending for your AI tools, in the Windows taskbar.
+</details>
+
+<sub>Galaxy header generated with <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a> (GPL-3.0). The code of the systems is private; happy to walk through any of it.</sub>

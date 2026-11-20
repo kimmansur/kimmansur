@@ -1,0 +1,41 @@
+name: Generate profile SVGs
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "config.yml"
+      - "generator/**"
+      - "cards/**"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+      - name: Galaxy header (galaxy-profile, GPL-3.0)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m generator.main
+      - name: Own cards (EN/PT)
+        run: |
+          python cards/build.py en
+          python cards/build.py pt
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update profile SVGs [skip ci]"
+            git push
+          fi

@@ -1,0 +1,23 @@
+username: kimmansur
+profile:
+  name: "Kim Mansur Yano"
+  tagline: "Public-health systems builder · SUS"
+  company: "SEMUS Vilhena · Mansur Consultoria"
+  location: "Vilhena, RO — Brasil"
+  bio: "Physical therapist and neuroscience researcher building the systems behind a municipal public-health operation."
+  philosophy: '"Model output is a proposal until something outside the model confirms it."'
+social:
+  website: "https://mansurconsultoria.com.br"
+galaxy_arms:
+  - name: "Health data & billing"
+    items: ["Python", "PostgreSQL", "SQL"]
+  - name: "Web systems"
+    items: ["TypeScript", "JavaScript", "HTML"]
+  - name: "Desktop & tooling"
+    items: ["C#", "PowerShell", "Shell"]
+projects:
+  - repo: "kimmansur/gaugely"
+    description: "Live usage limits and API spending for your AI tools, in the Windows taskbar."
+theme:
+  dark: "deep-sky"
+  light: "cyanotype"
