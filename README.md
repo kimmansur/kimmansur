@@ -17,8 +17,6 @@ Physical therapist and neuroscience researcher turned builder of the systems tha
   <img src="./assets/cards/en/systems.svg" width="850" alt="What I have built: thirteen systems for municipal public health, grouped by what they do"/>
 </div>
 
-<p align="center"><sub>[faturamento.semusvilhena.com](https://faturamento.semusvilhena.com) · [prestacao-contas.semusvilhena.com](https://prestacao-contas.semusvilhena.com) · [sisreg.semusvilhena.com](https://sisreg.semusvilhena.com) · [processos.semusvilhena.com](https://processos.semusvilhena.com) · [painel.semusvilhena.com](https://painel.semusvilhena.com) · [residencias.semusvilhena.com](https://residencias.semusvilhena.com) · [eventos.semusvilhena.com](https://eventos.semusvilhena.com) · [nfse.mansurconsultoria.com.br](https://nfse.mansurconsultoria.com.br)</sub></p>
-
 <br/>
 
 <div align="center">
@@ -39,4 +37,4 @@ Physical therapist and neuroscience researcher turned builder of the systems tha
 - [gaugely](https://github.com/kimmansur/gaugely): live usage limits and API spending for your AI tools, in the Windows taskbar.
 </details>
 
-<sub>Galaxy header generated with <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a> (GPL-3.0). The code of the systems is private; happy to walk through any of it.</sub>
+<sub>Each bright star in the header is one of the thirteen systems; the four arms are the four themes below. Galaxy header generated with <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a> (GPL-3.0). The code of the systems is private; happy to walk through any of it.</sub>

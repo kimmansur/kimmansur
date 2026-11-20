@@ -9,12 +9,14 @@ profile:
 social:
   website: "https://mansurconsultoria.com.br"
 galaxy_arms:
-  - name: "Health data & billing"
-    items: ["Python", "PostgreSQL", "SQL"]
-  - name: "Web systems"
-    items: ["TypeScript", "JavaScript", "HTML"]
-  - name: "Desktop & tooling"
-    items: ["C#", "PowerShell", "Shell"]
+  - name: "Getting paid for care"
+    items: []
+  - name: "Patients waiting"
+    items: []
+  - name: "Contracts & public money"
+    items: []
+  - name: "Paperwork & training"
+    items: []
 projects:
   - repo: "kimmansur/gaugely"
     description: "Live usage limits and API spending for your AI tools, in the Windows taskbar."

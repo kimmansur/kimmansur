@@ -17,8 +17,6 @@ Fisioterapeuta e pesquisador em neurociência que passou a construir os sistemas
   <img src="./assets/cards/pt/systems.svg" width="850" alt="O que construí: treze sistemas para a saúde pública municipal, agrupados pelo que fazem"/>
 </div>
 
-<p align="center"><sub>[faturamento.semusvilhena.com](https://faturamento.semusvilhena.com) · [prestacao-contas.semusvilhena.com](https://prestacao-contas.semusvilhena.com) · [sisreg.semusvilhena.com](https://sisreg.semusvilhena.com) · [processos.semusvilhena.com](https://processos.semusvilhena.com) · [painel.semusvilhena.com](https://painel.semusvilhena.com) · [residencias.semusvilhena.com](https://residencias.semusvilhena.com) · [eventos.semusvilhena.com](https://eventos.semusvilhena.com) · [nfse.mansurconsultoria.com.br](https://nfse.mansurconsultoria.com.br)</sub></p>
-
 <br/>
 
 <div align="center">
@@ -39,4 +37,4 @@ Fisioterapeuta e pesquisador em neurociência que passou a construir os sistemas
 - [gaugely](https://github.com/kimmansur/gaugely): limites de uso e gastos de API das ferramentas de IA, ao vivo, na barra de tarefas do Windows.
 </details>
 
-<sub>Cabeçalho gerado com o <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a> (GPL-3.0). O código dos sistemas é privado; posso apresentar qualquer um deles.</sub>
+<sub>Cada estrela brilhante do cabeçalho é um dos treze sistemas; os quatro braços são os quatro temas abaixo. Cabeçalho gerado com o <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a> (GPL-3.0). O código dos sistemas é privado; posso apresentar qualquer um deles.</sub>
